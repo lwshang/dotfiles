@@ -1,0 +1,7 @@
+[directory]
+truncation_length = 8
+style = "blue"
+
+[cmd_duration]
+min_time = 5_000
+style = "yellow"
