@@ -23,6 +23,7 @@ if type brew > /dev/null 2>&1; then
   alias bcit='brew cask install'
   alias bcif='brew cask info'
   alias bcrm='brew cask rm'
+  alias bcu='brew cu -a'
 fi
 
 # completion
@@ -184,6 +185,7 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # utilities in rust
 if type exa > /dev/null 2>&1; then
   alias ls="exa -g --group-directories-first --time-style=long-iso"
+  alias tree="exa --tree"
 fi
 if type bat > /dev/null 2>&1; then
   alias cat=bat
