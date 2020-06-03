@@ -183,7 +183,7 @@ alias l="la"
 [ -f /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ] && . /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 [ -f /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ] && . /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-# utilities in rust
+# alternatives for *nix utilities
 if type exa > /dev/null 2>&1; then
   alias ls="exa -g --group-directories-first --time-style=long-iso"
   alias tree="exa --tree"
@@ -193,6 +193,9 @@ if type bat > /dev/null 2>&1; then
 fi
 if type rg > /dev/null 2>&1; then
   alias grep=rg
+fi
+if type trash > /dev/null 2>&1; then
+  alias rm=trash
 fi
 
 # starship prompt
