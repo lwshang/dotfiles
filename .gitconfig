@@ -1,0 +1,13 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = lwshang
+	email = dev@lwshang.com
+	signingkey = 70978193596416E9 
+[core]
+	editor = vim
+[commit]
+	gpgsign = true
