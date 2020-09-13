@@ -15,7 +15,7 @@ if type brew > /dev/null 2>&1; then
   alias bls='brew list'
   alias bubo='brew update && brew outdated'
   alias bubc='brew upgrade && brew cleanup'
-  alias bubu='bubo && bubc'
+  alias bubu='bubo && bubc && bcu'
   alias bs='brew search'
   alias bit='brew install'
   alias bif='brew info'
@@ -23,7 +23,7 @@ if type brew > /dev/null 2>&1; then
   alias bcit='brew cask install'
   alias bcif='brew cask info'
   alias bcrm='brew cask rm'
-  alias bcu='brew cu -a'
+  alias bcu='brew cu -y'
 fi
 
 # completion
