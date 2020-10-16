@@ -23,7 +23,7 @@ if type brew > /dev/null 2>&1; then
   alias bcit='brew cask install'
   alias bcif='brew cask info'
   alias bcrm='brew cask rm'
-  alias bcu='brew cu -y'
+  alias bcu='brew cu -a -y'
 fi
 
 # completion
