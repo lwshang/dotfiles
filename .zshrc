@@ -108,6 +108,9 @@ alias gps='git push'
 alias gss='git status -s'
 alias gst='git status'
 
+# gnupg
+export GPG_TTY=$(tty)
+
 # help
 autoload -U run-help
 [ `alias | grep run-help` ] && unalias run-help
