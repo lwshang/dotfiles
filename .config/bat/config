@@ -2,5 +2,3 @@
 --style="plain"
 --color="auto"
 --tabs=2
---map-syntax .zprofile:zsh
---map-syntax .Rprofile:R
