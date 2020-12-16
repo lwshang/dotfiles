@@ -5,10 +5,14 @@
 #  ███████╗███████║██║  ██║██║  ██║╚██████╗
 #  ╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝
 
-# autjump
+# autojump
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 [ -f /usr/share/autojump/autojump.sh ] && . /usr/share/autojump/autojump.sh # Debian
 [ -f ~/.nix-profile/share/autojump/autojump.zsh ] && . ~/.nix-profile/share/autojump/autojump.zsh
+
+# autosuggestions
+source ~/.config/zsh/zsh-autosuggestions.zsh
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=3"
 
 # brew
 if type brew > /dev/null 2>&1; then
