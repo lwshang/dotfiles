@@ -20,9 +20,6 @@ if type brew > /dev/null 2>&1; then
   alias bit='brew install'
   alias bif='brew info'
   alias brm='brew rm'
-  alias bcit='brew cask install'
-  alias bcif='brew cask info'
-  alias bcrm='brew cask rm'
   alias bcu='brew cu -a -y'
 fi
 
@@ -93,6 +90,7 @@ export VISUAL=vim
 alias g='git'
 alias ga='git add'
 alias gaa='git add --all'
+alias gau='git add -u'
 alias gb='git branch'
 alias gc='git commit -v'
 alias gc!='git commit -v --amend'
