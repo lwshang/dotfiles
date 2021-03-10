@@ -1,0 +1,6 @@
+[user]
+	name = lwshang
+	email = dev@lwshang.com
+	signingkey = 70978193596416E9
+[commit]
+	gpgsign = true

@@ -1,10 +1,6 @@
-[user]
-	name = lwshang
-	email = dev@lwshang.com
-	signingkey = 70978193596416E9 
 [core]
 	editor = vim
-[commit]
-	gpgsign = true
 [pull]
 	rebase = true
+[include]
+	path = .gitconfig.local
