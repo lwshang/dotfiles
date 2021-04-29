@@ -184,6 +184,11 @@ alias la="ls -lah"
 alias ll="ls -lh"
 alias l="la"
 
+# pyenv
+if type pyenv > /dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
+
 # syntax highlighting
 [ -f /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ] && . /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 [ -f /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ] && . /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
